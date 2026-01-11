@@ -1,5 +1,6 @@
 
 # OhMyPosh
+export PATH="$HOME/.local/bin:$PATH"
 eval "$(oh-my-posh init zsh --config ~/.poshthemes/tokyonight_storm.omp.json)"
 
 
@@ -113,9 +114,3 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
-
-# Nvim
-export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
-
-# Fix blurry vscode
-alias code='code --ozone-platform=wayland'
