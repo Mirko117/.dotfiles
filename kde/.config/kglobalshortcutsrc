@@ -1,6 +1,7 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
 switch-to-activity-1fd26434-5e71-4228-8acd-9a105d41787c=none,none,Switch to activity "Default"
+switch-to-activity-b6885b7b-7671-413a-9d45-3bf768c925bf=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Keyboard Layout
@@ -260,6 +261,9 @@ _launch=Meta+T
 
 [services][org.kde.kcolorchooser.desktop]
 _launch=Meta+Shift+C
+
+[services][org.mozilla.firefox.desktop]
+_launch=Meta+F
 
 [services][systemsettings.desktop]
 _launch=Meta+I\tTools
