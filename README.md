@@ -89,3 +89,7 @@ sudo ./dkms-install.sh
 sudo modprobe 8821ce
 ```
 
+
+## Other stuff
+
+[Booting Fedora Directly with rEFInd](docs/refind-direct-boot.md)
