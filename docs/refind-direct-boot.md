@@ -96,7 +96,7 @@ Save and exit.
 Fedora should now boot directly, without GRUB, and without emergency mode.
 
 
-## Optional: Survive Kernel Updates (not tested)
+## Optional but recommend: Survive Kernel Updates
 
 Create a kernel install hook:
 ```bash
