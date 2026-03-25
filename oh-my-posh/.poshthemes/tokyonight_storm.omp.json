@@ -34,7 +34,7 @@
           "type": "path",
           "style": "plain",
           "foreground": "p:terminal-magenta",
-          "properties": {
+          "options": {
             "style": "folder"
           },
           "template": "<b>{{ .Path }}</b> <p:light-sky-blue>\u26a1</>"
@@ -50,7 +50,7 @@
             "{{ if gt .Behind 0 }}p:celeste-blue{{ end }}"
           ],
           "template": "({{ .HEAD}})",
-          "properties": {
+          "options": {
             "fetch_status": true,
             "branch_icon": "\ue725 "
           }
@@ -103,15 +103,6 @@
           "style": "plain",
           "foreground": "p:light-sky-blue",
           "template": "\uFCD1 {{ .Full}}"
-        },
-        {
-          "type": "command",
-          "style": "plain",
-          "foreground": "p:white-blue",
-          "properties": {
-            "command": "git log --pretty=format:%cr -1 || date +%H:%M:%S",
-            "shell": "bash"
-          }
         }
       ],
       "type": "prompt"
@@ -141,6 +132,6 @@
     "template": "\u279c "
   },
   "final_space": true,
-  "version": 3,
+  "version": 4,
   "terminal_background": "p:t-background"
 }
